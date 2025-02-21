@@ -1,0 +1,89 @@
+2025-02-20 18:31:06,161 - INFO - NumExpr defaulting to 8 threads.
+2025-02-20 18:31:22,016 - INFO - Downloading model...
+2025-02-20 18:49:10,447 - INFO - Model downloaded successfully.
+2025-02-20 18:49:10,449 - INFO - Loading model...
+2025-02-20 18:49:10,495 - ERROR - Error loading model: Instantiating a pipeline without a task set raised an error: Repo id must be in the form 'repo_name' or 'namespace/repo_name': './models/flan-alpaca-gpt4-xl'. Use `repo_type` argument if needed.
+2025-02-20 18:50:18,478 - INFO - NumExpr defaulting to 8 threads.
+2025-02-20 18:50:31,762 - INFO - Downloading model...
+2025-02-20 18:50:32,331 - INFO - Model downloaded successfully.
+2025-02-20 18:50:32,332 - INFO - Loading model...
+2025-02-20 18:50:32,357 - ERROR - Error loading model: Instantiating a pipeline without a task set raised an error: Repo id must be in the form 'repo_name' or 'namespace/repo_name': './models/flan-alpaca-gpt4-xl'. Use `repo_type` argument if needed.
+2025-02-20 18:53:36,651 - INFO - NumExpr defaulting to 8 threads.
+2025-02-20 18:53:44,781 - INFO - Downloading model...
+2025-02-20 18:53:45,818 - INFO - Model downloaded successfully.
+2025-02-20 18:53:45,818 - INFO - Loading model...
+2025-02-20 18:53:52,828 - WARNING - From C:\Users\IPro-AI\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-20 18:53:58,657 - INFO - Model loaded successfully.
+2025-02-20 18:55:39,019 - INFO - Received API request: {'url': 'https://api.com/v1/patient/records', 'id': 'a81c9b34d6c247fda5e8a7d58bf76e3a', 'method': 'DELETE', 'input': '{"patient_id":"P12345"}', 'output': {'status': 'success', 'message': 'Patient record deleted successfully.'}, 'header': '{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}', 'authorization': '{"token":"xyz12345"}', 'query': '{"confirm":"true"}', 'collection_id': 'health2025', 'workspace_id': '5678', 'tenant_id': 't9u8v7w6x5y4z3a2b1c0d9', 'project_id': 'health5678'}
+2025-02-20 18:58:31,884 - INFO - Response: {'sector': 'medical', 'intent': 'Consider this API call:\n{\'url\': \'https://api.com/v1/patient/records\', \'id\': \'a81c9b34d6c247fda5e8a7d58bf76e3a\', \'method\': \'DELETE\', \'input\': \'{"patient_id":"P12345"}\', \'output\': {\'status\': \'success\', \'message\': \'Patient record deleted successfully.\'}, \'header\': \'{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}\', \'authorization\': \'{"token":"xyz12345"}\', \'query\': \'{"confirm":"true"}\', \'collection_id\': \'health2025\', \'workspace_id\': \'5678\', \'tenant_id\': \'t9u8v7w6x5y4z3a2b1c0d9\', \'project_id\': \'health5678\'}\nQuestion: What is the goal of this API call? for example: The goal of this API call is to retrieve booking details for a specific booking ID using a GET method.dataset.  \'url\': \'https://api.com/v1/patient/records\', \'id\': \'a81c9b34d6c247fda5e8a7d58bf76e3a\',\'method\': \'DELETE\', \'input\': \'"patient_id'}
+2025-02-20 19:00:24,585 - INFO - Received API request: {'url': 'https://api.com/v1/patient/records', 'id': 'a81c9b34d6c247fda5e8a7d58bf76e3a', 'method': 'DELETE', 'input': '{"patient_id":"P12345"}', 'output': {'status': 'success', 'message': 'Patient record deleted successfully.'}, 'header': '{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}', 'authorization': '{"token":"xyz12345"}', 'query': '{"confirm":"true"}', 'collection_id': 'health2025', 'workspace_id': '5678', 'tenant_id': 't9u8v7w6x5y4z3a2b1c0d9', 'project_id': 'health5678'}
+2025-02-20 19:02:08,143 - INFO - Response: {'sector': 'medical', 'intent': 'Consider this API call:\n{\'url\': \'https://api.com/v1/patient/records\', \'id\': \'a81c9b34d6c247fda5e8a7d58bf76e3a\', \'method\': \'DELETE\', \'input\': \'{"patient_id":"P12345"}\', \'output\': {\'status\': \'success\', \'message\': \'Patient record deleted successfully.\'}, \'header\': \'{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}\', \'authorization\': \'{"token":"xyz12345"}\', \'query\': \'{"confirm":"true"}\', \'collection_id\': \'health2025\', \'workspace_id\': \'5678\', \'tenant_id\': \'t9u8v7w6x5y4z3a2b1c0d9\', \'project_id\': \'health5678\'}\nQuestion: What is the goal of this API call? for example: The goal of this API call is to retrieve booking details for a specific booking ID using a GET method.th the new message \'Success\'.'}
+2025-02-20 19:11:02,324 - INFO - NumExpr defaulting to 8 threads.
+2025-02-20 19:11:08,792 - INFO - Downloading model...
+2025-02-20 19:11:09,261 - INFO - Model downloaded successfully.
+2025-02-20 19:11:09,261 - INFO - Loading model...
+2025-02-20 19:11:14,317 - WARNING - From C:\Users\IPro-AI\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-20 19:11:17,189 - INFO - Model loaded successfully.
+2025-02-20 19:11:28,167 - INFO - NumExpr defaulting to 8 threads.
+2025-02-20 19:11:31,261 - INFO - Downloading model...
+2025-02-20 19:11:31,603 - INFO - Model downloaded successfully.
+2025-02-20 19:11:31,603 - INFO - Loading model...
+2025-02-20 19:11:35,129 - WARNING - From C:\Users\IPro-AI\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-20 19:11:37,740 - INFO - Model loaded successfully.
+2025-02-20 19:12:13,309 - INFO - Received API request: {'url': 'https://api.com/v1/patient/records', 'id': 'a81c9b34d6c247fda5e8a7d58bf76e3a', 'method': 'DELETE', 'input': '{"patient_id":"P12345"}', 'output': {'status': 'success', 'message': 'Patient record deleted successfully.'}, 'header': '{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}', 'authorization': '{"token":"xyz12345"}', 'query': '{"confirm":"true"}', 'collection_id': 'health2025', 'workspace_id': '5678', 'tenant_id': 't9u8v7w6x5y4z3a2b1c0d9', 'project_id': 'health5678'}
+2025-02-20 19:13:03,650 - INFO - Response: {'sector': 'medical', 'intent': 'Consider this API call:\n{\'url\': \'https://api.com/v1/patient/records\', \'id\': \'a81c9b34d6c247fda5e8a7d58bf76e3a\', \'method\': \'DELETE\', \'input\': \'{"patient_id":"P12345"}\', \'output\': {\'status\': \'success\', \'message\': \'Patient record deleted successfully.\'}, \'header\': \'{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}\', \'authorization\': \'{"token":"xyz12345"}\', \'query\': \'{"confirm":"true"}\', \'collection_id\': \'health2025\', \'workspace_id\': \'5678\', \'tenant_id\': \'t9u8v7w6x5y4z3a2b1c0d9\', \'project_id\': \'health5678\'}\nQuestion: What is the goal of this API call? for example: The goal of this API call is to retrieve booking details for a specific booking ID using a GET method. Give me the answer alone'}
+2025-02-20 19:16:51,080 - INFO - NumExpr defaulting to 8 threads.
+2025-02-20 19:16:57,782 - INFO - Downloading model...
+2025-02-20 19:16:58,212 - INFO - Model downloaded successfully.
+2025-02-20 19:16:58,212 - INFO - Loading model...
+2025-02-20 19:17:03,061 - WARNING - From C:\Users\IPro-AI\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-20 19:17:06,029 - INFO - Model loaded successfully.
+2025-02-20 19:17:06,041 - INFO - Received API request: {'url': 'https://api.com/v1/patient/records', 'id': 'a81c9b34d6c247fda5e8a7d58bf76e3a', 'method': 'DELETE', 'input': '{"patient_id":"P12345"}', 'output': {'status': 'success', 'message': 'Patient record deleted successfully.'}, 'header': '{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}', 'authorization': '{"token":"xyz12345"}', 'query': '{"confirm":"true"}', 'collection_id': 'health2025', 'workspace_id': '5678', 'tenant_id': 't9u8v7w6x5y4z3a2b1c0d9', 'project_id': 'health5678'}
+2025-02-20 19:18:20,330 - INFO - Response: {'sector': 'medical', 'intent': ''}
+2025-02-21 10:43:32,414 - INFO - Downloading model...
+2025-02-21 10:43:32,973 - INFO - Model downloaded successfully.
+2025-02-21 10:43:32,973 - INFO - Loading model and tokenizer...
+2025-02-21 10:43:34,685 - ERROR - Error loading model: Unrecognized configuration class <class 'transformers.models.t5.configuration_t5.T5Config'> for this kind of AutoModel: AutoModelForCausalLM.
+Model type should be one of AriaTextConfig, BambaConfig, BartConfig, BertConfig, BertGenerationConfig, BigBirdConfig, BigBirdPegasusConfig, BioGptConfig, BlenderbotConfig, BlenderbotSmallConfig, BloomConfig, CamembertConfig, LlamaConfig, CodeGenConfig, CohereConfig, Cohere2Config, CpmAntConfig, CTRLConfig, Data2VecTextConfig, DbrxConfig, DiffLlamaConfig, ElectraConfig, Emu3Config, ErnieConfig, FalconConfig, FalconMambaConfig, FuyuConfig, GemmaConfig, Gemma2Config, GitConfig, GlmConfig, GotOcr2Config, GPT2Config, GPT2Config, GPTBigCodeConfig, GPTNeoConfig, GPTNeoXConfig, GPTNeoXJapaneseConfig, GPTJConfig, GraniteConfig, GraniteMoeConfig, GraniteMoeSharedConfig, HeliumConfig, JambaConfig, JetMoeConfig, LlamaConfig, MambaConfig, Mamba2Config, MarianConfig, MBartConfig, MegaConfig, MegatronBertConfig, MistralConfig, MixtralConfig, MllamaConfig, MoshiConfig, MptConfig, MusicgenConfig, MusicgenMelodyConfig, MvpConfig, NemotronConfig, OlmoConfig, Olmo2Config, OlmoeConfig, OpenLlamaConfig, OpenAIGPTConfig, OPTConfig, PegasusConfig, PersimmonConfig, PhiConfig, Phi3Config, PhimoeConfig, PLBartConfig, ProphetNetConfig, QDQBertConfig, Qwen2Config, Qwen2MoeConfig, RecurrentGemmaConfig, ReformerConfig, RemBertConfig, RobertaConfig, RobertaPreLayerNormConfig, RoCBertConfig, RoFormerConfig, RwkvConfig, Speech2Text2Config, StableLmConfig, Starcoder2Config, TransfoXLConfig, TrOCRConfig, WhisperConfig, XGLMConfig, XLMConfig, XLMProphetNetConfig, XLMRobertaConfig, XLMRobertaXLConfig, XLNetConfig, XmodConfig, ZambaConfig, Zamba2Config.
+2025-02-21 10:43:58,583 - INFO - Downloading model...
+2025-02-21 10:43:59,062 - INFO - Model downloaded successfully.
+2025-02-21 10:43:59,064 - INFO - Loading model and tokenizer...
+2025-02-21 10:43:59,656 - ERROR - Error loading model: Unrecognized configuration class <class 'transformers.models.t5.configuration_t5.T5Config'> for this kind of AutoModel: AutoModelForCausalLM.
+Model type should be one of AriaTextConfig, BambaConfig, BartConfig, BertConfig, BertGenerationConfig, BigBirdConfig, BigBirdPegasusConfig, BioGptConfig, BlenderbotConfig, BlenderbotSmallConfig, BloomConfig, CamembertConfig, LlamaConfig, CodeGenConfig, CohereConfig, Cohere2Config, CpmAntConfig, CTRLConfig, Data2VecTextConfig, DbrxConfig, DiffLlamaConfig, ElectraConfig, Emu3Config, ErnieConfig, FalconConfig, FalconMambaConfig, FuyuConfig, GemmaConfig, Gemma2Config, GitConfig, GlmConfig, GotOcr2Config, GPT2Config, GPT2Config, GPTBigCodeConfig, GPTNeoConfig, GPTNeoXConfig, GPTNeoXJapaneseConfig, GPTJConfig, GraniteConfig, GraniteMoeConfig, GraniteMoeSharedConfig, HeliumConfig, JambaConfig, JetMoeConfig, LlamaConfig, MambaConfig, Mamba2Config, MarianConfig, MBartConfig, MegaConfig, MegatronBertConfig, MistralConfig, MixtralConfig, MllamaConfig, MoshiConfig, MptConfig, MusicgenConfig, MusicgenMelodyConfig, MvpConfig, NemotronConfig, OlmoConfig, Olmo2Config, OlmoeConfig, OpenLlamaConfig, OpenAIGPTConfig, OPTConfig, PegasusConfig, PersimmonConfig, PhiConfig, Phi3Config, PhimoeConfig, PLBartConfig, ProphetNetConfig, QDQBertConfig, Qwen2Config, Qwen2MoeConfig, RecurrentGemmaConfig, ReformerConfig, RemBertConfig, RobertaConfig, RobertaPreLayerNormConfig, RoCBertConfig, RoFormerConfig, RwkvConfig, Speech2Text2Config, StableLmConfig, Starcoder2Config, TransfoXLConfig, TrOCRConfig, WhisperConfig, XGLMConfig, XLMConfig, XLMProphetNetConfig, XLMRobertaConfig, XLMRobertaXLConfig, XLNetConfig, XmodConfig, ZambaConfig, Zamba2Config.
+2025-02-21 10:55:23,196 - INFO - Downloading model...
+2025-02-21 10:55:23,757 - INFO - Model downloaded successfully.
+2025-02-21 10:55:23,757 - INFO - Loading model...
+2025-02-21 10:55:31,843 - WARNING - From C:\Users\IPro-AI\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-21 10:55:40,196 - INFO - Model loaded successfully.
+2025-02-21 10:56:49,974 - INFO - Downloading model...
+2025-02-21 10:56:50,569 - INFO - Model downloaded successfully.
+2025-02-21 10:56:50,569 - INFO - Loading model...
+2025-02-21 10:57:00,297 - WARNING - From C:\Users\IPro-AI\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-21 10:57:06,276 - INFO - Model loaded successfully.
+2025-02-21 10:57:42,154 - INFO - NumExpr defaulting to 8 threads.
+2025-02-21 10:57:54,617 - INFO - Downloading model...
+2025-02-21 10:57:55,180 - INFO - Model downloaded successfully.
+2025-02-21 10:57:55,180 - INFO - Loading model...
+2025-02-21 10:58:01,893 - WARNING - From C:\Users\IPro-AI\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-21 10:58:06,590 - INFO - Model loaded successfully.
+2025-02-21 10:58:13,378 - INFO - Received API request: {'url': 'https://api.com/v1/patient/records', 'id': 'a81c9b34d6c247fda5e8a7d58bf76e3a', 'method': 'DELETE', 'input': '{"patient_id":"P12345"}', 'output': {'status': 'success', 'message': 'Patient record deleted successfully.'}, 'header': '{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}', 'authorization': '{"token":"xyz12345"}', 'query': '{"confirm":"true"}', 'collection_id': 'health2025', 'workspace_id': '5678', 'tenant_id': 't9u8v7w6x5y4z3a2b1c0d9', 'project_id': 'health5678'}
+2025-02-21 10:59:14,529 - ERROR - Error detecting intent: The following `model_kwargs` are not used by the model: ['return_full_text'] (note: typos in the generate arguments will also show up in this list)
+2025-02-21 10:59:14,540 - INFO - Response: {'sector': 'medical', 'intent': 'Error'}
+2025-02-21 11:02:48,544 - INFO - NumExpr defaulting to 8 threads.
+2025-02-21 11:03:03,052 - INFO - Downloading model...
+2025-02-21 11:03:03,684 - INFO - Model downloaded successfully.
+2025-02-21 11:03:03,684 - INFO - Loading model...
+2025-02-21 11:03:10,561 - WARNING - From C:\Users\IPro-AI\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-21 11:03:15,073 - INFO - Model loaded successfully.
+2025-02-21 11:03:28,157 - INFO - Received API request: {'url': 'https://api.com/v1/patient/records', 'id': 'a81c9b34d6c247fda5e8a7d58bf76e3a', 'method': 'DELETE', 'input': '{"patient_id":"P12345"}', 'output': {'status': 'success', 'message': 'Patient record deleted successfully.'}, 'header': '{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}', 'authorization': '{"token":"xyz12345"}', 'query': '{"confirm":"true"}', 'collection_id': 'health2025', 'workspace_id': '5678', 'tenant_id': 't9u8v7w6x5y4z3a2b1c0d9', 'project_id': 'health5678'}
+2025-02-21 11:04:36,801 - INFO - Response: {'sector': 'medical', 'intent': 'The goal of this API call is to delete a patient record.'}
+2025-02-21 11:05:29,458 - INFO - Received API request: {'url': 'https://api.com/v1/patient/records', 'id': 'b12d9e87a4c242fcb6e1f3d78cf45b2e', 'method': 'POST', 'input': '{"patient_id":"P12346", "name": "John Doe", "age": 30, "gender": "Male"}', 'output': {'status': 'success', 'message': 'New patient record created successfully.'}, 'header': '{"Authorization":"Bearer abcdefghijklmnopqrstuvwxyz","Content-Type":"application/json"}', 'authorization': '{"token":"xyz67890"}', 'query': '{}', 'collection_id': 'health2025', 'workspace_id': '5678', 'tenant_id': 't9u8v7w6x5y4z3a2b1c0d9', 'project_id': 'health5678'}
+2025-02-21 11:06:03,862 - INFO - Response: {'sector': 'medical', 'intent': 'The goal of this API call is to create a new patient record.'}
